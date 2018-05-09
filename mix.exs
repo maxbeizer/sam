@@ -7,7 +7,10 @@ defmodule Sam.MixProject do
       version: "0.1.0",
       elixir: "~> 1.6",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      description: "a WIP library to read config vars at runtime instead of compile time",
+      package: package(),
+      source_url: "https://github.com/maxbeizer/sam"
     ]
   end
 
@@ -18,11 +21,18 @@ defmodule Sam.MixProject do
     ]
   end
 
+  defp package do
+    [
+      licenses: ["MIT"],
+      maintainers: ["max.beizer@gmail.com"],
+      links: %{"GitHub" => "https://github.com/maxbeizer/sam"}
+    ]
+  end
+
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
+      {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
 end
