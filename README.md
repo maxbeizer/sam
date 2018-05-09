@@ -1,6 +1,6 @@
-# Sam
+# Secret Agent Man (Sam)
 
-**TODO: Add description**
+A WIP library to read config vars at runtime instead of compile time.
 
 ## Installation
 
