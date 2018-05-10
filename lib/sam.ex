@@ -1,6 +1,6 @@
-defmodule Sam do
+defmodule SAM do
   @moduledoc """
-  Documentation for Sam.
+  Documentation for SAM.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule Sam do
 
   ## Examples
 
-      iex> Sam.hello
+      iex> SAM.hello
       :world
 
   """

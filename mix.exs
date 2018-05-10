@@ -1,4 +1,4 @@
-defmodule Sam.MixProject do
+defmodule SAM.MixProject do
   use Mix.Project
 
   def project do

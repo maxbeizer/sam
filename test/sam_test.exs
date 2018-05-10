@@ -1,8 +1,8 @@
-defmodule SamTest do
+defmodule SAMTest do
   use ExUnit.Case
-  doctest Sam
+  doctest SAM
 
   test "greets the world" do
-    assert Sam.hello() == :world
+    assert SAM.hello() == :world
   end
 end

@@ -1,4 +1,4 @@
-# Secret Agent Man (Sam)
+# Secret Agent Man (SAM)
 
 A WIP library to read config vars at runtime instead of compile time.
 
